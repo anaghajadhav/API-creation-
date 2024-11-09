@@ -45,6 +45,10 @@ To test the API, you can use **curl** .
 
 curl -X POST -F "file=@path/to/your/Input.xml" http://127.0.0.1:5000/upload -o Tally_Daybook_Receipts.xlsx
 
+or 
+
+curl -X POST -F "file=@path/to/your/Input.xml" http://127.0.0.1:5000/upload -o path/to/your/Tally_Daybook_Receipts.xlsx
+
 
 ### Response
 The API returns an Excel file (`Tally_Daybook_Receipts.xlsx`) with the following columns:
